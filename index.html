@@ -4,19 +4,29 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#122b42">
-  <meta name="description" content="Yuki 的旅行足迹：从地图上重新走过西班牙的六座城市。">
+  <meta name="description" content="Yuki 的旅行足迹：2026 年 6 月 5–20 日，六座城市与十六天的真实行程。">
   <title>旅行足迹 · Yuki</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23122b42'/%3E%3Cpath d='M12 45 31 14l21 31H12Z' fill='none' stroke='%23f2bd79' stroke-width='5' stroke-linejoin='round'/%3E%3Ccircle cx='31' cy='33' r='5' fill='%23f2bd79'/%3E%3C/svg%3E">
   <style>
     :root{font-family:Inter,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;color:#172d40;background:#f6f4ef;font-synthesis:none}*{box-sizing:border-box}body{margin:0}button{font:inherit}button:focus-visible{outline:3px solid #e69144;outline-offset:3px}.shell{max-width:1500px;margin:auto;min-height:100vh;padding:26px clamp(18px,4vw,64px) 50px}.top{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-bottom:22px;border-bottom:1px solid #d7d7d0}.brand{display:flex;align-items:center;gap:13px;font-size:1.03rem;font-weight:750;letter-spacing:.02em}.brandmark{width:36px;height:36px;border-radius:11px;background:#122b42;color:#f4bc77;display:grid;place-items:center;font-size:19px}.top small{color:#6a7880;font-size:.84rem}.intro{display:flex;justify-content:space-between;align-items:end;gap:25px;margin:30px 0 25px}.eyebrow{font-size:.85rem;color:#a55f2b;font-weight:750;letter-spacing:.13em}.intro h1{font-family:Georgia,"Songti SC",serif;font-weight:600;font-size:clamp(2.1rem,4.4vw,4.1rem);line-height:1.13;letter-spacing:-.04em;margin:10px 0 6px}.intro p{color:#667580;margin:0;font-size:1rem;line-height:1.55}.count{min-width:150px;text-align:right;padding-bottom:5px}.count b{font-family:Georgia,serif;font-size:2.3rem;font-weight:500}.count span{display:block;font-size:.8rem;color:#697780}.workspace{display:grid;grid-template-columns:minmax(0,1.48fr) minmax(320px,.78fr);gap:20px;align-items:stretch}.map-panel{background:#dbe7e7;border:1px solid #cad9d9;border-radius:23px;min-height:580px;overflow:hidden;position:relative;display:flex;flex-direction:column}.map-head{position:relative;z-index:2;padding:26px 28px 0;display:flex;justify-content:space-between;align-items:start;gap:12px}.map-head strong{font-size:1.1rem}.map-head span{font-size:.8rem;color:#52717a}.map-head div{display:grid;gap:5px}.map-key{display:flex;align-items:center;gap:8px;padding:9px 11px;background:#f8faf7cc;border:1px solid #ffffffad;border-radius:999px;font-size:.78rem;color:#4c6971}.map-key i{width:8px;height:8px;border-radius:50%;background:#bf6744}.map-wrap{flex:1;min-height:470px;position:relative;padding:0 4px 6px}.map-wrap svg{width:100%;height:100%;display:block;overflow:visible}.gridline{stroke:#b2cbcb;stroke-width:1;stroke-dasharray:3 8}.coast-hint{fill:#f0eee7;stroke:#b9c9c4;stroke-width:1.7}.island{fill:#f0eee7;stroke:#b9c9c4;stroke-width:1.4}.route{fill:none;stroke:#bd714c;stroke-width:2.1;stroke-dasharray:5 8;stroke-linecap:round;opacity:.75}.map-label{font-family:Georgia,serif;fill:#799198;font-size:13px;letter-spacing:.08em}.city-button{position:absolute;transform:translate(-50%,-50%);z-index:3;border:0;background:transparent;color:#19354a;cursor:pointer;padding:0;width:22px;height:22px;display:grid;place-items:center;white-space:nowrap}.city-button .dot{width:18px;height:18px;background:#fff;border:5px solid #b76b49;box-shadow:0 0 0 4px #ffffffa8,0 2px 9px #173b4c33;border-radius:50%;transition:transform .2s,background .2s}.city-button.active .dot,.city-button:hover .dot{transform:scale(1.23);background:#142f47;border-color:#fff;box-shadow:0 0 0 5px #bd714c,0 4px 13px #173b4c55}.city-button .label{position:absolute;top:22px;left:50%;transform:translate(calc(-50% + var(--lx)),var(--ly));font-size:.82rem;font-weight:750;background:#fffef9ec;padding:6px 9px;border-radius:7px;box-shadow:0 2px 7px #33535c1b}.city-button.active .label{background:#122b42;color:white}.map-foot{position:absolute;bottom:18px;left:27px;color:#69858c;font-size:.76rem;z-index:2}.detail{background:#fffefa;border:1px solid #e4e0d8;border-radius:23px;overflow:hidden;display:flex;flex-direction:column;min-height:580px}.detail-image{height:205px;position:relative;background:linear-gradient(140deg,#456a7c,#a6bbb8);overflow:hidden}.detail-image img{width:100%;height:100%;display:block;object-fit:cover}.image-credit{position:absolute;right:12px;bottom:10px;background:#122b42b8;color:white;padding:4px 7px;border-radius:4px;font-size:.7rem}.detail-body{padding:25px 28px 24px;display:flex;flex-direction:column;flex:1}.detail-index{font-size:.78rem;color:#a15d36;letter-spacing:.12em;font-weight:750}.detail h2{font-family:Georgia,"Songti SC",serif;font-weight:500;font-size:2.35rem;margin:12px 0 4px;line-height:1.12}.detail .english{font-size:.9rem;color:#829098;margin:0 0 22px}.detail h3{font-size:.78rem;letter-spacing:.12em;color:#73828b;margin:0 0 12px}.places{list-style:none;margin:0;padding:0;display:grid;gap:11px}.places li{padding:12px 14px;background:#f5f5f0;border-radius:10px;font-size:.93rem;line-height:1.35}.detail-note{margin:auto 0 0;padding-top:22px;color:#64727a;font-size:.83rem;line-height:1.5}.stops{padding-top:29px}.section-line{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:14px}.section-line h2{font-size:1rem;margin:0}.section-line span{font-size:.8rem;color:#77838a}.stop-list{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:9px}.stop{background:#fffefa;border:1px solid #e2ded5;border-radius:12px;text-align:left;padding:15px 12px 13px;min-height:88px;cursor:pointer;transition:background .2s,border-color .2s,transform .2s}.stop:hover{transform:translateY(-2px);border-color:#bf8d6d}.stop.active{background:#122b42;color:white;border-color:#122b42}.stop .num{display:block;font-size:.75rem;color:#a56d4d;margin-bottom:12px}.stop.active .num{color:#edbc84}.stop .name{font-size:.91rem;font-weight:700}.stop .en{display:block;font-size:.75rem;margin-top:3px;color:#7b898f}.stop.active .en{color:#b8c9ce}.footer{margin-top:28px;color:#849099;font-size:.75rem;line-height:1.5}@media(max-width:930px){.workspace{grid-template-columns:1fr}.map-panel{min-height:480px}.map-wrap{min-height:380px}.detail{min-height:0;display:grid;grid-template-columns:42% 1fr}.detail-image{height:100%;min-height:300px}.stop-list{grid-template-columns:repeat(3,1fr)}}@media(max-width:600px){.shell{padding:18px 14px 30px}.top{padding:0 5px 17px}.top small{font-size:.72rem}.intro{margin:25px 5px 21px}.intro h1{font-size:2.22rem}.intro p{font-size:.9rem}.count{min-width:65px}.count b{font-size:1.9rem}.count span{font-size:.7rem}.workspace{gap:14px}.map-panel{min-height:440px;border-radius:17px}.map-head{padding:20px 17px 0}.map-wrap{min-height:350px}.map-key{font-size:.7rem}.city-button .dot{width:15px;height:15px;border-width:4px}.city-button .label{font-size:.7rem;padding:5px 6px}.map-foot{left:17px;bottom:12px;font-size:.66rem}.detail{display:block;border-radius:17px}.detail-image{height:154px;min-height:0}.detail-body{min-height:295px;padding:21px}.detail h2{font-size:2rem}.places{grid-template-columns:1fr 1fr;gap:8px}.places li{font-size:.84rem;padding:10px}.stops{padding-top:23px}.stop-list{grid-template-columns:repeat(2,1fr)}.stop{min-height:80px}.footer{margin-top:23px}}@media(prefers-reduced-motion:reduce){.city-button .dot,.stop{transition:none}}
+
+    .return-route{stroke:#426c7c;stroke-dasharray:none;opacity:.65}
+    .workspace{align-items:start}.map-panel{height:650px;min-height:0}.map-wrap{min-height:0;padding:0;overflow:hidden}.map-wrap svg{position:absolute;inset:0;width:100%;height:100%}
+    .detail{min-height:650px}.detail-image{height:170px;flex-shrink:0}.detail .english{margin-bottom:10px}.city-dates{color:#9a5a32;margin:0 0 20px;font-size:.82rem;font-weight:650}.places li{line-height:1.5}
+    .day-link,.all-days{cursor:pointer;border:1px solid #c9d3d2;border-radius:999px;padding:11px 17px;background:#fffefa;color:#244856;font:inherit;font-size:.82rem}.day-link{margin-top:22px;align-self:start}.day-link:hover,.all-days:hover{background:#e6eeee}.all-days[aria-pressed=true]{background:#122b42;color:white;border-color:#122b42}
+    .stop .dates{display:block;margin-top:8px;font-size:.7rem;color:#8a6144}.stop.active .dates{color:#edbc84}
+    .journal{margin-top:52px;padding-top:35px;border-top:1px solid #d7d7d0;scroll-margin-top:25px}.journal-heading{display:flex;justify-content:space-between;align-items:center;gap:20px}.journal-heading h2{font-family:Georgia,"Songti SC",serif;font-size:clamp(1.65rem,3vw,2.4rem);font-weight:500;margin:10px 0}.journal-heading p{color:#667580;line-height:1.6;font-size:.9rem;margin:0}.all-days{white-space:nowrap}.filter-status{font-size:.8rem;color:#6a7880;margin:23px 0 15px}
+    .day-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}.day-card{border:1px solid #e0dfd6;background:#fffefa;border-radius:18px;overflow:hidden;padding:24px;min-width:0}.day-head{display:flex;gap:15px;align-items:start}.date-block{background:#eaf0ef;border-radius:10px;text-align:center;min-width:57px;padding:9px 8px;color:#244856}.date-block b{font-family:Georgia,serif;font-size:1.4rem;font-weight:500;display:block}.date-block small{font-size:.67rem}.day-kicker{font-size:.7rem;letter-spacing:.08em;color:#a15d36}.day-head h3{font-size:1.03rem;line-height:1.55;margin:5px 0 0}.day-places{list-style:none;padding:0;margin:19px 0 0;display:grid;gap:10px}.day-places li{position:relative;padding-left:15px;font-size:.86rem;line-height:1.65;overflow-wrap:anywhere}.day-places li:before{content:"";width:4px;height:4px;background:#b77852;border-radius:50%;position:absolute;left:0;top:10px}.stay{background:#f4f0e7;padding:12px 14px;border-radius:9px;font-size:.8rem;line-height:1.65;margin:17px 0 0;overflow-wrap:anywhere}.stay span{display:block;font-size:.67rem;letter-spacing:.12em;color:#96704b;margin-bottom:3px}.logistics{border-top:1px solid #e7e7de;margin-top:17px;padding-top:12px}.logistics summary{cursor:pointer;font-size:.8rem;color:#56717a;padding:5px 0;line-height:1.5}.logistics ul{padding-left:18px;color:#65757b;font-size:.78rem;line-height:1.8}.source-note{font-size:.76rem;line-height:1.7;color:#856743;background:#faf4e8;padding:10px 12px;border-radius:8px;margin:12px 0 0}.source-note strong{font-weight:650}summary:focus-visible{outline:3px solid #e69144;outline-offset:3px}
+    @media(max-width:930px){.map-panel{height:530px}.detail{min-height:0}.detail-image{height:100%;min-height:300px}.detail-body{min-width:0}}
+    @media(max-width:600px){.top{gap:8px}.brand{font-size:.83rem;gap:8px}.top small{font-size:.65rem}.intro{gap:12px}.intro h1{font-size:1.95rem}.intro p{font-size:.82rem}.count span{max-width:70px;line-height:1.6}.map-panel{height:420px}.map-head{gap:8px}.map-head span{font-size:.69rem}.map-key{padding:7px;font-size:.66rem}.map-foot{font-size:.6rem;left:12px}.detail-image{height:154px;min-height:0}.places{grid-template-columns:1fr}.journal{margin-top:32px;padding-top:26px}.journal-heading{align-items:start;gap:10px}.journal-heading h2{font-size:1.45rem}.journal-heading p{font-size:.78rem}.all-days{padding:9px 12px;font-size:.75rem}.day-list{grid-template-columns:1fr;gap:12px}.day-card{padding:20px}.section-line span{font-size:.7rem}.stop .dates{font-size:.66rem}}
   </style>
 </head>
 <body>
   <main class="shell">
     <header class="top"><div class="brand"><span class="brandmark" aria-hidden="true">✧</span><span>Yuki's Travel Atlas</span></div><small>我的旅行足迹 · 2026</small></header>
-    <section class="intro" aria-labelledby="page-title"><div><span class="eyebrow">SPAIN · JUN 2026</span><h1 id="page-title">一段西班牙的夏天</h1><p>从马德里出发，点开地图，重走每一站。</p></div><div class="count"><b>06</b><span>座城市 · 一段旅程</span></div></section>
+    <section class="intro" aria-labelledby="page-title"><div><span class="eyebrow">SPAIN · JUN 2026</span><h1 id="page-title">一段西班牙的夏天</h1><p>从马德里出发，经过安达卢西亚与海岛，再回到马德里。</p></div><div class="count"><b>06</b><span>座城市 · 16 天记忆</span></div></section>
     <div class="workspace">
-      <section class="map-panel" aria-label="西班牙旅行地图"><div class="map-head"><div><strong>旅行路线</strong><span>6 月 5 日 — 19 日</span></div><div class="map-key"><i aria-hidden="true"></i> 点击地点查看</div></div><div class="map-wrap" id="map-wrap">
+      <section class="map-panel" aria-label="西班牙旅行地图"><div class="map-head"><div><strong>旅行路线</strong><span>6 月 5–20 日 · 含往返北京</span></div><div class="map-key"><i aria-hidden="true"></i> 点击地点查看</div></div><div class="map-wrap" id="map-wrap">
         <svg viewBox="0 0 760 490" preserveAspectRatio="xMidYMid meet" role="img" aria-label="西班牙与巴利阿里群岛的示意地图，标出六座旅途城市">
           <defs><pattern id="grain" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".5" fill="#93afb5" opacity=".3"/></pattern></defs>
           <path class="gridline" d="M0 122H760M0 256H760M0 390H760M145 0V490M355 0V490M565 0V490"/>
@@ -24,34 +34,437 @@
           <path class="island" d="M624 251 C641 241 672 242 687 252 C697 258 694 271 678 274 C658 278 631 272 622 263 Z"/>
           <path d="M0 0H760V490H0Z" fill="url(#grain)" opacity=".45"/>
           <text class="map-label" x="66" y="91">ATLANTIC</text><text class="map-label" x="506" y="389">MEDITERRANEAN SEA</text><text class="map-label" x="239" y="235" style="font-size:26px;letter-spacing:.18em;opacity:.43">ESPAÑA</text>
-          <path class="route" id="route-line" d=""/>
+          <path class="route" id="route-line" d=""/><path class="route return-route" d="M657 258 Q510 190 340 239"/>
         </svg>
-      </div><div class="map-foot">位置为路线示意 · 点击城市切换</div></section>
-      <aside class="detail" aria-live="polite"><div class="detail-image"><img src="./spain-journal.png" alt="西班牙夏日旅行意境图"><span class="image-credit">旅行意境图</span></div><div class="detail-body"><span class="detail-index" id="detail-index"></span><h2 id="detail-name"></h2><p class="english" id="detail-en"></p><h3>记下的地点与片段</h3><ul class="places" id="detail-places"></ul><p class="detail-note">旅程记录 · 西班牙，2026 年 6 月</p></div></aside>
+      </div><div class="map-foot">路线示意 · 实线为 6.17 马略卡 → 马德里返程</div></section>
+      <aside class="detail" aria-live="polite"><div class="detail-image"><img src="./spain-journal.png" alt="西班牙夏日旅行意境图"><span class="image-credit">旅行意境图</span></div><div class="detail-body"><span class="detail-index" id="detail-index"></span><h2 id="detail-name"></h2><p class="english" id="detail-en"></p><p class="city-dates" id="city-dates"></p><h3>记下的地点与片段</h3><ul class="places" id="detail-places"></ul><button class="day-link" id="city-days" type="button">查看这座城市的日程 ↓</button></div></aside>
     </div>
-    <section class="stops" aria-label="旅行城市列表"><div class="section-line"><h2>沿途六站</h2><span>选择一座城市</span></div><div class="stop-list" id="stop-list"></div></section>
-    <footer class="footer">这是一份正在生长的个人旅行地图。下一版，可以把自己的照片和短故事放进每座城市。</footer>
+    <section class="stops" aria-label="旅行城市列表"><div class="section-line"><h2>沿途六站</h2><span>马德里出发 · 马德里归途</span></div><div class="stop-list" id="stop-list"></div></section>
+    <section class="journal" id="journal" aria-labelledby="journal-title">
+      <div class="journal-heading"><div><span class="eyebrow">THE TRAVEL JOURNAL</span><h2 id="journal-title">把每一天，重新走一遍</h2><p>2026.06.05 — 06.20 · 从北京出发，也回到北京。</p></div><button class="all-days" type="button" id="all-days" aria-pressed="true">全部 16 天</button></div>
+      <p id="journal-filter" class="filter-status" role="status">完整旅程 · 16 天</p><div id="day-list" class="day-list"></div>
+    </section>
+    <footer class="footer">根据旅行行程表整理 · 地图为路线示意，配图为旅行意境图。<br>从街巷到海湾，把西班牙的夏天留在这里。</footer>
   </main>
   <script>
     const cities = [
-      {id:'madrid',name:'马德里',en:'Madrid',x:340,y:239,places:['Malacatín 炖菜'],lx:0,ly:-48},
-      {id:'sevilla',name:'塞维利亚',en:'Sevilla',x:213,y:348,places:['这一站的照片和故事待补充'],lx:-15,ly:-48},
-      {id:'malaga',name:'马拉加',en:'Málaga',x:271,y:395,places:['这一站的照片和故事待补充'],lx:-23,ly:0},
-      {id:'granada',name:'格拉纳达',en:'Granada',x:327,y:368,places:['阿宫酒店'],lx:42,ly:0},
-      {id:'barcelona',name:'巴塞罗那',en:'Barcelona',x:526,y:156,places:['圣家堂','加泰罗尼亚音乐宫','米拉之家 · 巴特罗之家'],lx:12,ly:-48},
-      {id:'mallorca',name:'马略卡',en:'Mallorca',x:657,y:258,places:['Belmond La Residencia','Formentor 自驾'],lx:0,ly:0}
-    ];
+  {
+    "id": "madrid",
+    "name": "马德里",
+    "en": "Madrid",
+    "x": 340,
+    "y": 239,
+    "lx": 0,
+    "ly": -48,
+    "dates": "6.5–6.6 · 6.17–6.19",
+    "places": [
+      "奥莱与百年 Taberna 小酒馆",
+      "Salesas 街区、丽池公园",
+      "Ogrelo 海鲜、西班牙炖菜",
+      "屋顶莫吉托、文华东方 Cava"
+    ]
+  },
+  {
+    "id": "sevilla",
+    "name": "塞维利亚",
+    "en": "Sevilla",
+    "x": 213,
+    "y": 348,
+    "lx": -15,
+    "ly": -48,
+    "dates": "6.6–6.7",
+    "places": [
+      "王宫阿尔卡萨宫、西班牙广场",
+      "弗拉明戈舞蹈与 Tapas",
+      "塞维利亚斗牛场",
+      "Cristine Bedfor Sevilla"
+    ]
+  },
+  {
+    "id": "malaga",
+    "name": "马拉加",
+    "en": "Málaga",
+    "x": 271,
+    "y": 395,
+    "lx": -23,
+    "ly": 0,
+    "dates": "6.7",
+    "places": [
+      "14:00 毕加索美术馆",
+      "马拉加老城随走",
+      "沿海滨公路自驾",
+      "傍晚前往格拉纳达"
+    ]
+  },
+  {
+    "id": "granada",
+    "name": "格拉纳达",
+    "en": "Granada",
+    "x": 327,
+    "y": 368,
+    "lx": 42,
+    "ly": 0,
+    "dates": "6.7–6.9",
+    "places": [
+      "阿尔罕布拉宫、酒店露台",
+      "皇家礼拜堂与格拉纳达教堂",
+      "阿尔拜辛区的日落",
+      "老城游玩与 Tapas"
+    ]
+  },
+  {
+    "id": "barcelona",
+    "name": "巴塞罗那",
+    "en": "Barcelona",
+    "x": 526,
+    "y": 156,
+    "lx": 12,
+    "ly": -48,
+    "dates": "6.9–6.12",
+    "places": [
+      "老城广场、兰布拉大道与音乐宫",
+      "蒙特惠奇山与海边晚餐",
+      "圣家堂、巴特罗之家、米拉之家",
+      "格拉西亚大道夜景"
+    ]
+  },
+  {
+    "id": "mallorca",
+    "name": "马略卡",
+    "en": "Mallorca",
+    "x": 657,
+    "y": 258,
+    "lx": 0,
+    "ly": 0,
+    "dates": "6.12–6.17",
+    "places": [
+      "Deià、Valldemossa 山村",
+      "Cala Rajada 市集、海湾游泳",
+      "Pleta de Mar 与贝梦德酒店",
+      "出海、桨板、山顶夕阳"
+    ]
+  }
+];
+    const days = [
+  {
+    "date": "2026-06-05",
+    "title": "抵达马德里",
+    "cities": [
+      "madrid"
+    ],
+    "places": [
+      "奥莱逛街购物",
+      "SAL Y BRASAS · MENTIDERO",
+      "百年老牌 Taberna 小酒馆，美餐一顿"
+    ],
+    "travel": [
+      "02:00 北京首都机场 T3 → 08:00 马德里巴拉哈斯机场 T1 · CA907",
+      "09:00 租车",
+      "15:00 酒店入住"
+    ],
+    "stay": "马德里塔欧洲之星酒店 · Eurostars Madrid Tower",
+    "note": ""
+  },
+  {
+    "date": "2026-06-06",
+    "title": "飞往塞维利亚",
+    "cities": [
+      "madrid",
+      "sevilla"
+    ],
+    "places": [
+      "王宫阿尔卡萨宫",
+      "西班牙广场",
+      "欣赏弗拉明戈舞蹈",
+      "晚餐 Tapas"
+    ],
+    "travel": [
+      "06:20 马德里还车",
+      "09:20 马德里机场 T2 → 10:30 塞维利亚机场 · UX5051",
+      "11:00 租车",
+      "15:00 酒店入住"
+    ],
+    "stay": "塞维利亚克里斯蒂娜贝德福 · Cristine Bedfor Sevilla",
+    "note": ""
+  },
+  {
+    "date": "2026-06-07",
+    "title": "从马拉加的海风到格拉纳达",
+    "cities": [
+      "sevilla",
+      "malaga",
+      "granada"
+    ],
+    "places": [
+      "09:00 塞维利亚斗牛场",
+      "14:00 毕加索美术馆 · 已购 14:00–14:45 场",
+      "马拉加老城随走、海滨公路",
+      "阿尔罕布拉宫酒店露台喝酒"
+    ],
+    "travel": [
+      "11:00–12:00 前往马拉加 · 自驾",
+      "17:00–19:30 前往格拉纳达 · 自驾",
+      "抵达后酒店入住（表中未填酒店名）"
+    ],
+    "stay": "",
+    "note": ""
+  },
+  {
+    "date": "2026-06-08",
+    "title": "格拉纳达，宫殿与日落",
+    "cities": [
+      "granada"
+    ],
+    "places": [
+      "老城游玩",
+      "皇家礼拜堂、格拉纳达教堂",
+      "17:30 阿尔罕布拉宫 · 已购票，备注时段 08:30–20:00",
+      "傍晚在阿尔拜辛区看日落",
+      "晚餐 Tapas"
+    ],
+    "travel": [
+      "市内交通：自驾"
+    ],
+    "stay": "",
+    "note": ""
+  },
+  {
+    "date": "2026-06-09",
+    "title": "抵达巴塞罗那，海边晚餐",
+    "cities": [
+      "granada",
+      "barcelona"
+    ],
+    "places": [
+      "夜游巴塞罗那",
+      "海边晚餐"
+    ],
+    "travel": [
+      "11:00 格拉纳达还车",
+      "14:05 格拉纳达机场 → 15:35 巴塞罗那机场 T2 · 伏林航空 VY2013",
+      "租车、酒店入住（表中未填酒店名）",
+      "夜游交通：自驾"
+    ],
+    "stay": "",
+    "note": "原表租车写为 15:00，早于航班 15:35 抵达；租车时间待核对。"
+  },
+  {
+    "date": "2026-06-10",
+    "title": "巴塞罗那的广场与街巷",
+    "cities": [
+      "barcelona"
+    ],
+    "places": [
+      "巴塞罗那主教座堂",
+      "国王广场 · Plaça del Rei",
+      "圣海梅广场 · Plaça Sant Jaume",
+      "皇家广场 · Plaça Reial",
+      "兰布拉大道 · La Rambla",
+      "哥伦布纪念碑 · Mirador de Colom",
+      "音乐宫"
+    ],
+    "travel": [],
+    "stay": "",
+    "note": ""
+  },
+  {
+    "date": "2026-06-11",
+    "title": "高迪建筑与格拉西亚夜景",
+    "cities": [
+      "barcelona"
+    ],
+    "places": [
+      "蒙特惠奇山 · Montjuïc 逛街",
+      "小镇公园喝酒",
+      "圣家堂 · 已购票，备注 18:15 场、提前 15 分钟前往",
+      "巴特罗之家",
+      "米拉之家",
+      "格拉西亚大道夜景 · Passeig de Gràcia"
+    ],
+    "travel": [],
+    "stay": "",
+    "note": "圣家堂时间栏写为 17:00，购票备注为 18:15 场；两项按原表保留。"
+  },
+  {
+    "date": "2026-06-12",
+    "title": "飞向马略卡岛",
+    "cities": [
+      "barcelona",
+      "mallorca"
+    ],
+    "places": [
+      "游玩马略卡岛"
+    ],
+    "travel": [
+      "11:00 巴塞罗那还车",
+      "14:00 巴塞罗那机场 T2 → 15:00 帕尔马机场 N · 瑞安航空 FR6378",
+      "15:30 租车"
+    ],
+    "stay": "自然普雷塔玛尔豪华酒店 · Pleta de Mar, Grand Luxury Hotel by Nature",
+    "note": "原表酒店入住为 15:00，与航班抵达同一时间，且早于 15:30 租车；入住时间待核对。"
+  },
+  {
+    "date": "2026-06-13",
+    "title": "山村、市集与海边",
+    "cities": [
+      "mallorca"
+    ],
+    "places": [
+      "Deià 与 Valldemossa 山村",
+      "Cala Rajada 市集和海边"
+    ],
+    "travel": [],
+    "stay": "",
+    "note": ""
+  },
+  {
+    "date": "2026-06-14",
+    "title": "把一天留给海湾",
+    "cities": [
+      "mallorca"
+    ],
+    "places": [
+      "晨游泳池",
+      "Cala 海湾游泳",
+      "欣赏山顶夕阳和海景",
+      "海边吃披萨"
+    ],
+    "travel": [
+      "酒店入住（表中未填酒店名）"
+    ],
+    "stay": "",
+    "note": ""
+  },
+  {
+    "date": "2026-06-15",
+    "title": "住进贝梦德，慢享一天",
+    "cities": [
+      "mallorca"
+    ],
+    "places": [
+      "老城逛街",
+      "酒店参团与全天活动",
+      "米其林晚餐"
+    ],
+    "travel": [
+      "15:00 酒店入住"
+    ],
+    "stay": "拉瑞兹登西亚 · 贝梦德酒店 · La Residencia, A Belmond Hotel, Mallorca",
+    "note": ""
+  },
+  {
+    "date": "2026-06-16",
+    "title": "出海，果冻海与桨板",
+    "cities": [
+      "mallorca"
+    ],
+    "places": [
+      "海边散步",
+      "出海：果冻海游泳、桨板",
+      "酒店看世界杯、吃晚餐"
+    ],
+    "travel": [],
+    "stay": "海边机场旁雅高酒店（原表未写具体店名）",
+    "note": ""
+  },
+  {
+    "date": "2026-06-17",
+    "title": "重返马德里",
+    "cities": [
+      "mallorca",
+      "madrid"
+    ],
+    "places": [
+      "晚餐：西班牙炖菜",
+      "屋顶酒吧喝莫吉托"
+    ],
+    "travel": [
+      "09:00 马略卡还车",
+      "11:55 帕尔马机场 N → 13:25 马德里机场 T1 · FR2052",
+      "13:30 租车：“小货车”",
+      "酒店入住"
+    ],
+    "stay": "hotel mint",
+    "note": ""
+  },
+  {
+    "date": "2026-06-18",
+    "title": "马德里的最后一个整日",
+    "cities": [
+      "madrid"
+    ],
+    "places": [
+      "Salesas 街区购物",
+      "Restaurante Ogrelo 海鲜午餐：红魔虾、牡蛎、海鲜饭、海鲜汤、Cava",
+      "丽池公园",
+      "文华东方酒店大堂吧 · Cava"
+    ],
+    "travel": [],
+    "stay": "",
+    "note": ""
+  },
+  {
+    "date": "2026-06-19",
+    "title": "端午，从马德里启程",
+    "cities": [
+      "madrid"
+    ],
+    "places": [
+      "告别西班牙，返回北京"
+    ],
+    "travel": [
+      "12:30 还车",
+      "12:55 马德里巴拉哈斯机场 T1 起飞 · CA908",
+      "次日 06:00 抵达北京首都机场 T3"
+    ],
+    "stay": "",
+    "note": "原表还车与起飞仅相隔 25 分钟；两项时间按原表保留，待核对。"
+  },
+  {
+    "date": "2026-06-20",
+    "title": "清晨回到北京",
+    "cities": [],
+    "places": [
+      "06:00 抵达北京首都机场 T3 · CA908",
+      "西班牙旅程结束"
+    ],
+    "travel": [],
+    "stay": "",
+    "note": ""
+  }
+];
     const map = document.getElementById('map-wrap');
     const list = document.getElementById('stop-list');
     const svg = map.querySelector('svg');
     const path = document.getElementById('route-line');
     path.setAttribute('d','M '+cities.map(c=>`${c.x} ${c.y}`).join(' L '));
     cities.forEach((city,index)=>{
-      const point=document.createElement('button');point.type='button';point.className='city-button';point.dataset.id=city.id;point.setAttribute('aria-label',`查看${city.name}`);point.style.setProperty('--lx',`${city.lx}px`);point.style.setProperty('--ly',`${city.ly}px`);point.innerHTML=`<span class="dot" aria-hidden="true"></span><span class="label">${city.name}</span>`;point.addEventListener('click',()=>{selectCity(city.id);if(window.matchMedia('(max-width: 930px)').matches){document.querySelector('.detail').scrollIntoView({behavior:'smooth',block:'nearest'})}});map.appendChild(point);
-      const stop=document.createElement('button');stop.type='button';stop.className='stop';stop.dataset.id=city.id;stop.innerHTML=`<span class="num">${String(index+1).padStart(2,'0')} / 06</span><span class="name">${city.name}</span><span class="en">${city.en}</span>`;stop.addEventListener('click',()=>{selectCity(city.id);if(window.matchMedia('(max-width: 930px)').matches){document.querySelector('.detail').scrollIntoView({behavior:'smooth',block:'nearest'})}});list.appendChild(stop);
+      const point=document.createElement('button');point.type='button';point.className='city-button';point.dataset.id=city.id;point.setAttribute('aria-label',`查看${city.name}`);point.style.setProperty('--lx',`${city.lx}px`);point.style.setProperty('--ly',`${city.ly}px`);point.innerHTML=`<span class="dot" aria-hidden="true"></span><span class="label">${city.name}</span>`;point.addEventListener('click',()=>{selectCity(city.id);if(window.matchMedia('(max-width: 930px)').matches){document.querySelector('.detail').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'nearest'})}});map.appendChild(point);
+      const stop=document.createElement('button');stop.type='button';stop.className='stop';stop.dataset.id=city.id;stop.innerHTML=`<span class="num">${String(index+1).padStart(2,'0')} / 06</span><span class="name">${city.name}</span><span class="en">${city.en}</span><span class="dates">${city.dates}</span>`;stop.addEventListener('click',()=>{selectCity(city.id);if(window.matchMedia('(max-width: 930px)').matches){document.querySelector('.detail').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'nearest'})}});list.appendChild(stop);
     });
     function placePoints(){const box=svg.getBoundingClientRect();const mapBox=map.getBoundingClientRect();const ratio=Math.min(box.width/760,box.height/490);const offsetX=(box.width-760*ratio)/2+box.left-mapBox.left;const offsetY=(box.height-490*ratio)/2+box.top-mapBox.top;cities.forEach(c=>{const b=map.querySelector(`.city-button[data-id="${c.id}"]`);b.style.left=`${offsetX+c.x*ratio}px`;b.style.top=`${offsetY+c.y*ratio}px`})}
-    function selectCity(id){const city=cities.find(c=>c.id===id);if(!city)return;document.getElementById('detail-index').textContent=`第 ${String(cities.indexOf(city)+1).padStart(2,'0')} 站 / 06`;document.getElementById('detail-name').textContent=city.name;document.getElementById('detail-en').textContent=city.en;document.getElementById('detail-places').replaceChildren(...city.places.map(p=>{const li=document.createElement('li');li.textContent=p;return li}));document.querySelectorAll('[data-id]').forEach(el=>{const active=el.dataset.id===id;el.classList.toggle('active',active);el.setAttribute('aria-pressed',String(active))})}
+    function selectCity(id){const city=cities.find(c=>c.id===id);if(!city)return;document.getElementById('detail-index').textContent=`第 ${String(cities.indexOf(city)+1).padStart(2,'0')} 站 / 06`;document.getElementById('detail-name').textContent=city.name;document.getElementById('detail-en').textContent=city.en;document.getElementById('city-dates').textContent=city.dates;document.getElementById('city-days').onclick=()=>{renderDays(city.id);document.getElementById('journal').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'})};document.getElementById('detail-places').replaceChildren(...city.places.map(p=>{const li=document.createElement('li');li.textContent=p;return li}));document.querySelectorAll('[data-id]').forEach(el=>{const active=el.dataset.id===id;el.classList.toggle('active',active);el.setAttribute('aria-pressed',String(active))})}
+
+    function renderDays(cityId){
+      const filtered=cityId?days.filter(d=>d.cities.includes(cityId)):days;
+      const label=cityId?cities.find(c=>c.id===cityId).name+'相关日程 · '+filtered.length+' 天（含城市间转场）':'完整旅程 · 16 天';
+      document.getElementById('journal-filter').textContent=label;
+      document.getElementById('all-days').setAttribute('aria-pressed',String(!cityId));
+      const cards=filtered.map(d=>{
+        const article=document.createElement('article');article.className='day-card';
+        const date=new Date(d.date+'T12:00:00');
+        const head=document.createElement('div');head.className='day-head';
+        const stamp=document.createElement('time');stamp.className='date-block';stamp.dateTime=d.date;
+        stamp.innerHTML='<b>6.'+date.getDate()+'</b><small>星期'+'日一二三四五六'[date.getDay()]+'</small>';
+        const title=document.createElement('div');const kicker=document.createElement('span');kicker.className='day-kicker';kicker.textContent='DAY '+String(days.indexOf(d)+1).padStart(2,'0');const h=document.createElement('h3');h.textContent=d.title;title.append(kicker,h);head.append(stamp,title);article.append(head);
+        const ul=document.createElement('ul');ul.className='day-places';d.places.forEach(p=>{const li=document.createElement('li');li.textContent=p;ul.append(li)});article.append(ul);
+        if(d.stay){const stay=document.createElement('p');stay.className='stay';const caption=document.createElement('span');caption.textContent='这一晚 · STAY';stay.append(caption,document.createTextNode(d.stay));article.append(stay)}
+        if(d.travel.length){const details=document.createElement('details');details.className='logistics';const summary=document.createElement('summary');summary.textContent='交通与入住记录';const travel=document.createElement('ul');d.travel.forEach(t=>{const li=document.createElement('li');li.textContent=t;travel.append(li)});details.append(summary,travel);article.append(details)}
+        if(d.note){const p=document.createElement('p');p.className='source-note';const strong=document.createElement('strong');strong.textContent='时间待核对 · ';p.append(strong,document.createTextNode(d.note));article.append(p)}
+        return article;
+      });document.getElementById('day-list').replaceChildren(...cards);
+    }
+    document.getElementById('all-days').addEventListener('click',()=>renderDays());renderDays();
     new ResizeObserver(placePoints).observe(svg);selectCity('madrid');placePoints();
     if(document.modelContext?.registerTool){
       try { Promise.resolve(document.modelContext.registerTool({
